@@ -1,3 +1,9 @@
-pub mod initialize;
+pub mod borrow;
+pub mod repay;
 
-pub use initialize::*;
+use anchor_lang::prelude::*;
+
+#[derive(Accounts)]
+pub struct Loan {
+
+}
