@@ -9,7 +9,7 @@ pub use constants::*;
 pub use instructions::*;
 pub use state::*;
 
-declare_id!("G5fiBBkNj5BtaDjo9ZV3nCUtd7mDSc5KhhPDweVzFRW6");
+declare_id!("22222222222222222222222222222222222222222222");
 
 #[program]
 pub mod flash_loan {
@@ -18,7 +18,7 @@ pub mod flash_loan {
     pub fn borrow(ctx: Context<Loan>) -> Result<()> {
         borrow::handler(ctx)
     }
-    
+
     pub fn repay(ctx: Context<Loan>) -> Result<()> {
         repay::handler(ctx)
     }
