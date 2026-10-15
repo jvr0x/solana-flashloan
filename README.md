@@ -1,5 +1,8 @@
 # Flash Loan Program
 
+![RepoBeagle](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvr0x/solana-flashloan/repobeagle/badge.json)
+
+
 A Solana flash loan protocol built with the Anchor framework. This program enables users to borrow tokens without collateral, provided the loan is repaid within the same transaction.
 
 ## Overview
